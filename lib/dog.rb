@@ -4,12 +4,14 @@ class Dog
     @name = name
     @breed = breed
   end
+
+  def breed
+    @breed
+    def name
+      @name
+    end
+  end
 end
 
-def name
-  @name
-def breed
-  @breed
-end
-end
+
 binding.pry
