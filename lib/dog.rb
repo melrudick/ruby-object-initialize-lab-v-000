@@ -11,3 +11,4 @@ def breed
   @breed
 end
 end
+binding.pry
